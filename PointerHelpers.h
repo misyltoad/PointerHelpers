@@ -174,8 +174,7 @@ public:
 		m_Value++;
 	}
 
-	template <typename J>
-	PointerWrapper& operator++(const J& unused)
+	PointerWrapper& operator++(int unused)
 	{
 		m_Value++;
 	}
